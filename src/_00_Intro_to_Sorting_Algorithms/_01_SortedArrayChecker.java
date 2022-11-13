@@ -8,9 +8,24 @@ public class _01_SortedArrayChecker {
      * The method returns true if the integer array is in ascending order
      * and false otherwise.
      */
+	
     public static boolean intArraySorted(int[] arr) {
-        
-        return false;
+    	 for (int k = 0; k < arr.length - 1; k++) {
+             
+             // If the current element is bigger than the next...
+             if( arr[k] > arr[ k+1 ] ) {
+                 
+            	 return false;
+             }
+             else {
+                 
+            	 return true;
+             }
+         
+    	 
+       
+    }
+		return false;
     }
 
     /*
@@ -39,5 +54,6 @@ public class _01_SortedArrayChecker {
      *  The method returns true if the String array is in alphabetical
      *  order and false otherwise (Use the compareTo(String) method).
      */
+
 
 }

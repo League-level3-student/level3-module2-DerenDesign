@@ -26,6 +26,7 @@ public class _00_SortingDemo {
         for (int i = 0; i < arr.length; i++) {
             
             // This for loop puts one value in the correct position
+        	System.out.print(arr);
             for (int k = 0; k < arr.length - 1; k++) {
                 
                 // If the current element is bigger than the next...
