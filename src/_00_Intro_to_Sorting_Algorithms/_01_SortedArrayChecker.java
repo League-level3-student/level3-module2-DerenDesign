@@ -35,7 +35,20 @@ public class _01_SortedArrayChecker {
      * The method returns true if the double array is in ascending order
      * and false otherwise.
      */
-
+    public static boolean doubleArraySorted(double[] arr) {
+    	for (int k = 0; k < arr.length - 1; k++) {
+    		if(arr[k] > arr[k+1]) {
+                 
+            	 return false;
+             }
+                     
+		
+    }
+    	
+            
+       	 return true;
+           
+    }
 
     /*
      * 3. Write a static method called charArraySorted.

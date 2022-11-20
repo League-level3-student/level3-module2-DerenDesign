@@ -19,15 +19,15 @@ public class _01_SortedArrayCheckerTest {
         assertTrue(_01_SortedArrayChecker.intArraySorted(sorted));
     }
 
-//    @Test
-//    public void doubleArraySortTest() {
-//        double[] unsorted = {3, 2, 9, 3, 1, 0};
-//        double[] sorted = {0, 1, 2, 2, 3, 4};
-//
-//        assertFalse(_01_SortedArrayChecker.doubleArraySorted(unsorted));
-//        assertTrue(_01_SortedArrayChecker.doubleArraySorted(sorted));
-//    }
-//
+    @Test
+    public void doubleArraySortTest() {
+        double[] unsorted = {3, 2, 9, 3, 1, 0};
+        double[] sorted = {0, 1, 2, 2, 3, 4};
+
+        assertFalse(_01_SortedArrayChecker.doubleArraySorted(unsorted));
+        assertTrue(_01_SortedArrayChecker.doubleArraySorted(sorted));
+    }
+
 //    @Test
 //    public void charArraySortTest() {
 //        char[] unsorted = {'c', 'F', 'p', 'A'};
